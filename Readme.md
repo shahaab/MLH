@@ -2,23 +2,23 @@
 
 #### API DOCS
 
-- [github apis to get user details](https://api.github.com/users/)
-- [github apis to get user's repository details](https://api.github.com/users/repos)
+- [Github apis to get user details](https://api.github.com/users/)
+- [Github apis to get user's repository details](https://api.github.com/users/repos)
 
-- ready to go url's
+- Ready to go url's
 
 #### Initial Setup
 
 - select form, input, results
 - listen for submit events
-- if empty value, display default
+- If empty value, display default
 - create getUser()
 - pass valid input value into the createUserCard()
 
 
 #### Render Results
 
-- iterate over the list
+- iterate over the data fetched by API
 - pull out name, bio, followers, following, no. of repos
 - setup a card and put the above data into div with id 'user-info'
 - pull out repo details such as name, url based on their stars
